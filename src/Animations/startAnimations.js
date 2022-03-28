@@ -6,6 +6,7 @@ import { transitionBackgroundSection3 } from "./background/transitionBackgroundS
 import { startButterflies } from "./butterflies/startButterflies.js";
 
 function startAnimations() {
+
   // can enter
   canEnter("#can-left", 35, -20);
   canEnter("#can-center", -45, 20);

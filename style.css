@@ -230,11 +230,6 @@ header {
   position: relative;
   overflow: hidden;
 }
-.section-one-overflow-bg {
-  background-image: linear-gradient(to bottom, #f5efef 0%, #fff 100%);
-  z-index: 100;
-  position: relative;
-}
 
 /* #############################################
 ######################## */
@@ -379,7 +374,7 @@ header {
 .section-three {
   height: 100vh;
   background-image: linear-gradient(to bottom, #7dd791 0%, #7dd791 100%);
-  background-color: #fbf9e9;
+  /* background-color: #fbf9e9; */
 }
 
 .cans-container {
@@ -675,7 +670,7 @@ code {
     height: 100%;
     width: 100%;
     overflow: visible;
-    background-color: #7dd791;
+    /* background-color: #7dd791; */
     /* overflow: hidden; */
     /* fix position */
     position: relative;
