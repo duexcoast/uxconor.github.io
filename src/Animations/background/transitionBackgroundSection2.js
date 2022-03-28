@@ -8,7 +8,7 @@ function transitionBackgroundSection2() {
       scrub: 4,
       toggleActions: "play complete reverse reverse",
       //              onEnter  onLeave  onEnterBack   onLeaveBack
-      markers: true,
+      markers: false,
     },
   });
   tlSectionOne.to(".section-one", {
@@ -22,7 +22,7 @@ function transitionBackgroundSection2() {
       scrub: 4,
       toggleActions: "play complete reverse reverse",
       //              onEnter  onLeave  onEnterBack   onLeaveBack
-      markers: true,
+      markers: false,
     },
   });
   // const tlSectionTwo = gsap.timeline();
