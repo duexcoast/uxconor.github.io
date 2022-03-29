@@ -458,6 +458,9 @@ nav {
 .text-xs {
   font-size: 1em;
 }
+.checkout-btns {
+  font-size: 20px;
+}
 
 .text-sm {
   font-size: 1.5em;
@@ -581,6 +584,8 @@ header {
   background-color: #fff;
   border-bottom: solid 3px black;
   height: 80px;
+  position: relative;
+  z-index: 1000;
 }
 
 .logo {
@@ -661,8 +666,12 @@ header {
   -ms-flex-align: center;
   align-items: center;
 }
-
-.product-item-container {
+@media (max-width: 1440px) {
+  .product-conatiner {
+    padding: 32px;
+  }
+}
+.product-conatiner .product-item-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -899,7 +908,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 16px;
+  justify-content: flex-start;
+  /* align-items: center; */
+  gap: 32px;
   width: 210px;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
