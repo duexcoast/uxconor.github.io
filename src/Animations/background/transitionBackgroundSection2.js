@@ -26,12 +26,12 @@ function transitionBackgroundSection2() {
     },
   });
   // const tlSectionTwo = gsap.timeline();
-  tlSectionTwo.fromTo(
+  tlSectionTwo.to(
     ".section-two",
-    {
-      backgroundImage: "linear-gradient(to bottom, #f5efef 0%, #fff 100%)",
-      // duration: 1.9,
-    },
+    // {
+    //   backgroundImage: "linear-gradient(to bottom, #f5efef 0%, #fff 100%)",
+    // duration: 1.9,
+    // },
     {
       backgroundImage: "linear-gradient(to bottom, #7dd791 0%, #7dd791 100%)",
     }

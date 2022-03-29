@@ -4,9 +4,10 @@ import { parallaxUpSectionTwo } from "./parallax/canLeave.js";
 import { transitionBackgroundSection2 } from "./background/transitionBackgroundSection2.js";
 import { transitionBackgroundSection3 } from "./background/transitionBackgroundSection3.js";
 import { startButterflies } from "./butterflies/startButterflies.js";
+import { jaguar } from "./parallax/jaguar.js";
+import { floatingCan } from "./cans/floatingCan.js";
 
 function startAnimations() {
-
   // can enter
   canEnter("#can-left", 35, -20);
   canEnter("#can-center", -45, 20);
@@ -23,6 +24,14 @@ function startAnimations() {
 
   // butterflies
   startButterflies();
+
+  // jaguar
+  jaguar();
+
+  // floating can
+  floatingCan();
+  const leftSide = document.querySelector(".left-side");
+  // leftSide.addEventListener("mousemove",floatingCan)
 }
 
 // startAnimations();
